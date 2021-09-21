@@ -11,7 +11,7 @@ dp = Dispatcher(bot)
 
 @dp.message_handler(commands=['start'])
 async def process_start_command(message: types.Message):
-    await message.reply("Привет,я тестовый бот для тестов и пока что могу только отправлять тебе текст который ты мне пишешь.Бот-модератор и шалун от моего создателя @roki_crayzy: \n@kittencrazybot !")
+    await message.reply("Привет,напиши мне что нибудь!")
 
 
 @dp.message_handler(commands=['help'])
