@@ -16,7 +16,7 @@ async def process_start_command(message: types.Message):
 
 @dp.message_handler(commands=['help'])
 async def process_help_command(message: types.Message):
-    await message.reply("Напиши мне сообщение и  отправлю тебе в ответ!"
+    await message.reply("Напиши мне сообщение и  отправлю тебе в ответ!")
                  
 
 @dp.message_handler()
